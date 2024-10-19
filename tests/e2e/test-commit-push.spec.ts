@@ -12,7 +12,7 @@ test('homepage has title', async ({ page }) => {
     //test3
     //test4
     //test5
-
+    //test6
     // Assert that the title is as expected
     expect(title).toBe('Swag Labs'); // Adjust this based on the actual title of the page
 });

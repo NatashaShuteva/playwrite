@@ -1,0 +1,9 @@
+{
+    "locators": {
+        "username": "[data-test=\"username\"]",
+        "password": "[data-test=\"password\"]",
+        "loginButton": "[data-test=\"login-button\"]",
+        "sucesslogin": "[data-test=\"title\"]",
+        "errorlogin": "[data-test=\"error\"]"
+    }
+}
