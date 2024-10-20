@@ -54,7 +54,7 @@ export class SaucedemoPage{
     async verifyFailedLogin(expectedError: string) {
         const errorVisible = await this.errorlogin.isVisible();
         expect(errorVisible).toBeTruthy(); // Ensure the error message is visible
-        
+        console.log(`Expected Success Text: ${expectedError}`);
         const errorMessage = await this.errorlogin.textContent();
         expect(errorMessage).not.toBeNull();
         expect(errorMessage).toContain(expectedError); // Ensure the error message contains the expected text
