@@ -1,0 +1,16 @@
+{
+    "homepage": {
+        "siteLink": "a[href='/'] > span.sr-only",
+        "shopNowLink": "a.button.button--xl:has-text(\"SHOP NOW\")"
+    },
+    "productPage": {
+        "addToCartButton": "button.button.button--xl.button--secondary[is='custom-button'][type='submit']",
+        "airJordanLink": "//product-card[@handle='air-jordan-1-mid-ice-blue-td']",
+        "yeezyLink": "div.product-card__figure a[href*='/products/adidas-x-yeezy-boost-700-v2-tephra'] "
+    },
+        "modal": {
+            "backdrop": ".modal-backdrop",
+            "closeButton": ".close-button > .icon > path"
+        }
+    
+}
