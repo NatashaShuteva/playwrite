@@ -1,0 +1,36 @@
+import { test, expect } from '@playwright/test';
+
+test('test registration form', async ({ page }) => {
+  await page.goto('https://demoqa.com/');
+  await page.locator('div:nth-child(2) > div > .card-up').click();
+  await page.getByText('Practice Form').click();
+  await page.getByPlaceholder('First Name').click();
+  await page.getByPlaceholder('First Name').fill('Natasah');
+  await page.getByPlaceholder('Last Name').click();
+  await page.getByPlaceholder('Last Name').fill('Shuteva');
+  await page.getByPlaceholder('name@example.com').click();
+  await page.getByPlaceholder('name@example.com').fill('suteva@gmail.com');
+  await page.getByText('Female').click();
+  await page.getByPlaceholder('Mobile Number').click();
+  await page.getByPlaceholder('Mobile Number').fill('0078308710');
+  await page.locator('#dateOfBirthInput').click();
+  await page.locator('div').filter({ hasText: /^JanuaryFebruaryMarchAprilMayJuneJulyAugustSeptemberOctoberNovemberDecember$/ }).getByRole('combobox').selectOption('1');
+  await page.getByRole('combobox').nth(1).selectOption('1983');
+  await page.getByLabel('Choose Saturday, February 12th,').click();
+  await page.locator('.subjects-auto-complete__value-container').click();
+  await page.locator('#subjectsInput').fill('test');
+  await page.getByText('Sports').click();
+  await page.getByLabel('Select picture').click();
+  await page.getByLabel('Select picture').setInputFiles('sampleFile.jpg');
+  await page.getByPlaceholder('Current Address').click();
+  await page.getByPlaceholder('Current Address').fill('Adress2');
+  await page.locator('#state svg').click();
+  await page.getByText('NCR', { exact: true }).click();
+  await page.locator('div').filter({ hasText: /^Select City$/ }).nth(3).click();
+  await page.getByText('Delhi', { exact: true }).click();
+  await page.getByRole('button', { name: 'Submit' }).click();
+  await expect(page.getByText('Thanks for submitting the form')).toBeVisible();
+  const page1Promise = page.waitForEvent('popup');
+  await page.locator('#adplus-anchor').click();
+  const page1 = await page1Promise;
+});
