@@ -1,0 +1,18 @@
+
+  {
+    "homepage": {
+      "widgetsHeading": "role=heading[name='Widgets']"
+    },
+    "selectMenuPage": {
+      "selectMenuLink": "text=Select Menu",
+      "withOptGroupSelect": "#withOptGroup div",
+      "group2Option1": "div.css-1n7v3ny-option",
+      "selectedGroup2Option1": "div.css-1uccc91-singleValue",
+      "selectOne": "#selectOne div",
+      "selectedOption3": "div.css-1uccc91-singleValue",
+      "mrsOption": "text=Mrs.",
+      "multiSelect": "#cars",
+      "selectedOptions": "#cars option:checked"
+    }
+  }
+  

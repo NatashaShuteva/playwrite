@@ -1,0 +1,11 @@
+{
+    "homepage": {
+      "widgetsHeading": "role=heading[name='Widgets']"
+    },
+    "sliderPage": {
+      "sliderLink": "text=Slider",
+      "slider": "role=slider",
+      "sliderValue": "(//input[@value='75'])[2]"
+    }
+  }
+  

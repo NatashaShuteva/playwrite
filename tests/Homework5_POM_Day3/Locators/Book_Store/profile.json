@@ -1,0 +1,10 @@
+{
+    "homepage": {
+      "bookStoreAppHeading": "role=heading[name='Book Store Application']"
+    },
+    "profilePage": {
+      "profileLink": "(//li[@id='item-3'])[5]",
+      "notLoggedText": "//label[@class='form-label']"
+    }
+  }
+  

@@ -1,0 +1,7 @@
+{
+    "homepageUrl": "https://demoqa.com/",
+    "expectedMessages": {
+      "frameHeading": "This is a sample page"
+    }
+  }
+  

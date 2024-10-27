@@ -1,0 +1,10 @@
+{
+    "homepage": {
+      "bookStoreAppHeading": "role=heading[name='Book Store Application']"
+    },
+    "apiPage": {
+      "bookStoreAPILink": "text=Book Store API",
+      "apiHeading": "//div[@class='markdown']"
+    }
+  }
+  

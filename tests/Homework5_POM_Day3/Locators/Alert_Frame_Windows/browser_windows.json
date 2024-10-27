@@ -1,0 +1,18 @@
+{
+    "homepage": {
+      "avatar": "div:nth-child(2) > div > .avatar > svg",
+      "cardUp": "div:nth-child(2) > div > .card-up"
+    },
+    "alertsFrameWindowsPage": {
+      "alertsFrameWindowsLink": "text=Alerts, Frame & Windows",
+      "browserWindowsLink": "text=Browser Windows"
+    },
+    "browserWindowsPage": {
+      "newWindowButton": "role=button[name='New Window']",
+      "newWindowMessageButton": "role=button[name='New Window Message']",
+      "newTabButton": "role=button[name='New Tab']",
+      "samplePageHeading": "role=heading[name='This is a sample page']", 
+      "windowMessageText": "text=Knowledge increases by"
+    }
+  }
+  

@@ -1,0 +1,15 @@
+{
+    "homepage": {
+      "card": ".card-up",
+      "avatar": ".avatar"
+    },
+    "linksPage": {
+      "linksLink": "(//span[@class='text'])[6]",
+      "dynamicLink": "//a[@id='dynamicLink']",
+      "movedLink": "role=link[name='Moved']",
+      "bannerLink": "role=banner >> role=link", 
+      "movedText": "text=Moved Permanently"
+    }
+  }
+  
+  

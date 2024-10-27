@@ -1,0 +1,23 @@
+{
+    "homepageUrl": "https://demoqa.com/",
+    "studentDetails": {
+      "firstName": "Natasah",
+      "lastName": "Shuteva",
+      "email": "suteva@gmail.com",
+      "gender": "Female",
+      "mobileNumber": "0078308710",
+      "dateOfBirth": {
+        "month": "1",
+        "year": "1983",
+        "day": "12"
+      },
+      "subjects": "test",
+      "hobbies": "Sports",
+      "picture": "sampleFile.jpg",
+      "address": "Adress2",
+      "state": "NCR",
+      "city": "Delhi"
+    },
+    "submissionMessage": "Thanks for submitting the form"
+  }
+  

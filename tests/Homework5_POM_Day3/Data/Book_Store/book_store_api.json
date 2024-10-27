@@ -1,0 +1,7 @@
+{
+    "homepageUrl": "https://demoqa.com/",
+    "expectedMessages": {
+      "apiHeadingText": "Book Store Web API"
+    }
+  }
+  

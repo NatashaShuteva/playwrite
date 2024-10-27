@@ -1,0 +1,9 @@
+{
+    "homepageUrl": "https://demoqa.com/",
+    "expectedMessages": {
+      "samplePageHeading": "This is a sample page",
+      "windowMessageText": "Knowledge increases by",
+      "confirmationMessage": "You selected Cancel"
+    }
+  }
+  

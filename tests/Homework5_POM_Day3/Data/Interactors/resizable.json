@@ -1,0 +1,12 @@
+{
+    "homepageUrl": "https://demoqa.com/",
+    "expectedSizes": {
+      "defaultWidth": 200,
+      "defaultHeight": 200,
+      "minWidth": 150,
+      "minHeight": 150,
+      "maxWidth": 500,
+      "maxHeight": 300
+    }
+  }
+  

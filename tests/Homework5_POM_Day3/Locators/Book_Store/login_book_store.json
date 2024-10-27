@@ -1,0 +1,15 @@
+{
+    "homepage": {
+      "bookStoreAppHeading": "role=heading[name='Book Store Application']",
+      "loginLink": "(//li[@id='item-0'])[6]"
+    },
+    "loginPage": {
+      "usernamePlaceholder": "UserName",
+      "passwordPlaceholder": "Password",
+      "loginButton": "role=button[name='Login']",
+      "loggedInUser": "text=Natasha",
+      "logoutButton": "role=button[name='Log out']",
+      "welcomeHeading": "//label[@id='userName-value']"
+    }
+  }
+  

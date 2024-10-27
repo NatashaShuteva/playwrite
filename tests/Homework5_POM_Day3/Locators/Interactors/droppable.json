@@ -1,0 +1,10 @@
+{
+  "homepage": {
+    "interactionsHeading": "role=heading[name='Interactions']"
+  },
+  "droppablePage": {
+    "droppableLink": "text=Droppable",
+    "draggable": "#draggable",
+    "droppable": "#droppable"
+  }
+}

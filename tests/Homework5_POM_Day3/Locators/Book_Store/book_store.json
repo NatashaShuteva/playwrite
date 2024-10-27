@@ -1,0 +1,11 @@
+{
+    "homepage": {
+      "bookStoreAppHeading": "role=heading[name='Book Store Application']"
+    },
+    "bookStorePage": {
+      "initialEntry": "role=link[name='Git Pocket Guide']",
+      "searchBox": "//input[@id='searchBox']",
+      "searchResult": "//span[@id='see-book-Learning JavaScript Design Patterns']"
+    }
+  }
+  

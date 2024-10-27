@@ -1,0 +1,10 @@
+{
+    "homepageUrl": "https://demoqa.com/",
+    "expectedMessages": {
+      "movedText": "Moved Permanently"
+    },
+    "expectedLinks": {
+      "bannerLink": "https://demoqa.com"
+    }
+  }
+  

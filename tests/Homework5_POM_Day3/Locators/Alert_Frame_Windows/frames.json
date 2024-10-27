@@ -1,0 +1,14 @@
+{
+    "homepage": {
+      "avatarSvg": "div:nth-child(2) > div > .avatar > svg"
+    },
+    "alertsFrameWindowsPage": {
+      "alertsFrameWindowsLink": "text=Alerts, Frame & Windows",
+      "framesLink": "(//li[@id='item-2'])[2]"
+    },
+    "framesPage": {
+      "frame1": "#frame1",
+      "frame2": "#frame2"
+    }
+  }
+  

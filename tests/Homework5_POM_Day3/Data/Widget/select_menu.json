@@ -1,0 +1,8 @@
+{
+  "homepageUrl": "https://demoqa.com/",
+  "expectedMessages": {
+    "group2Option1Text": "Group 2, option 1",
+    "mrsText": "Mrs.",
+    "multiSelectOptions": ["Volvo", "Saab"]
+  }
+}

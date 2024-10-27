@@ -1,0 +1,11 @@
+{
+    "homepage": {
+      "card": ".card-up"
+    },
+    "radioButtonPage": {
+      "radioButtonLink": "text=Radio Button",
+      "impressiveOption": "text=Impressive",
+      "impressiveText": "role=paragraph >> text=Impressive"
+    }
+  }
+  

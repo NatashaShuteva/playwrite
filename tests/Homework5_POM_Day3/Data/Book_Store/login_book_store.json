@@ -1,0 +1,11 @@
+{
+    "homepageUrl": "https://demoqa.com/",
+    "credentials": {
+      "username": "Natasha",
+      "password": "Shuteva12#"
+    },
+    "expectedMessages": {
+      "welcomeText": "Natasha"
+    }
+  }
+  

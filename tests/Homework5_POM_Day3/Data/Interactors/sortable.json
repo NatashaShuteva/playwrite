@@ -1,0 +1,7 @@
+{
+    "homepageUrl": "https://demoqa.com/",
+    "expectedMessages": {
+      "sortableItems": ["One", "Two", "Three", "Four", "Five", "Six"]
+    }
+  }
+  

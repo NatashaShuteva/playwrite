@@ -1,0 +1,15 @@
+{
+    "homepageUrl": "https://demoqa.com/",
+    "userDetails": {
+      "firstName": "Natasha",
+      "lastName": "Shuteva",
+      "email": "suteva@gmail.com",
+      "age": "41",
+      "salary": "40000",
+      "department": "QA"
+    },
+    "updatedDetails": {
+      "age": "34"
+    }
+  }
+  

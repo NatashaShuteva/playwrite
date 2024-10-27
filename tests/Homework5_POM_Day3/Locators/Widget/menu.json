@@ -1,0 +1,12 @@
+{
+    "homepage": {
+      "widgetsHeading": "role=heading[name='Widgets']"
+    },
+    "menuPage": {
+      "menuLink": "(//li[@id='item-7'])[2]",
+      "mainItem2": "//a[text()='Main Item 2']",
+      "subSubList": "//a[text()='SUB SUB LIST »']",
+      "subSubItem2": "//a[text()='Sub Sub Item 2']"
+    }
+  }
+  

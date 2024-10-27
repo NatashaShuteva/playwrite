@@ -1,0 +1,8 @@
+{
+    "homepageUrl": "https://demoqa.com/",
+    "expectedMessages": {
+      "greenLabel": "Green",
+      "redLabel": "Red"
+    }
+  }
+  

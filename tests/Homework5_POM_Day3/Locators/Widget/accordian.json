@@ -1,0 +1,13 @@
+{
+  "homepage": {
+    "widgetsHeading": "role=heading[name='Widgets']"
+  },
+  "widgetsPage": {
+    "accordianLink": "//span[@class='text' and text()='Accordian']",
+    "loremIpsumText": "//div[@id='section1Content']",
+    "whereDoesItComeFrom": "text=Where does it come from?",
+    "contraryText": "//div[@id='section2Content']",
+    "whyDoWeUseIt": "text=Why do we use it?",
+    "longEstablishedFactText": "//div[@id='section3Content']"
+  }
+}

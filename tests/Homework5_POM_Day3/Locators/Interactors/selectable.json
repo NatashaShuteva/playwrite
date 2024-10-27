@@ -1,0 +1,15 @@
+{
+    "homepage": {
+      "widgetsHeading": "role=heading[name='Widgets']",
+      "interactionsLink": "text=Interactions"
+    },
+    "selectablePage": {
+      "selectableLink": "text=Selectable",
+      "gridTab": "role=tab[name='Grid']",
+      "itemTwo": "text=Two",
+      "itemFive": "text=Five",
+      "itemEight": "text=Eight",
+      "selectedItems": ".list-group-item.active.list-group-item-action"
+    }
+  }
+  

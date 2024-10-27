@@ -1,0 +1,14 @@
+{
+    "homepage": {
+      "avatar": "div:nth-child(4) > div > .avatar"
+    },
+    "autoCompletePage": {
+      "autoCompleteLink": "text=Auto Complete",
+      "valueContainer": ".auto-complete__value-container",
+      "multipleInput": "#autoCompleteMultipleInput",
+      "greenOption": "#react-select-2-option-0",
+      "greenLabel": "//div[@class='css-12jo7m5 auto-complete__multi-value__label' and text()='Green']",
+      "redLabel": "//div[@class='css-12jo7m5 auto-complete__multi-value__label' and text()='Red']"
+    }
+  }
+  

@@ -1,0 +1,15 @@
+ {
+    "homepage": {
+      "card": "//div[@class='card-body']/h5[text()='Elements']"
+    },
+    "checkBoxPage": {
+      "checkBoxLink": "text=Check Box",
+      "toggleButton": "(//button[@class='rct-collapse rct-collapse-btn'])[1]",
+      "expandButton": "(//button[@class='rct-collapse rct-collapse-btn'])[4]",
+      "wordFileIcon": "(//span[@class='rct-node-icon'])[5]",
+      "homeIcon": "(//span[@class='rct-node-icon'])[1]",
+      "wordFileTextLocator": "text=wordFile",
+      "homeTextLocator": "(//span[@class='text-success'])[1]"
+    }
+  }
+  

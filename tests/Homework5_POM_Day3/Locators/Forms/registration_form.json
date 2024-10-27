@@ -1,0 +1,30 @@
+{
+    "homepage": {
+      "card": "div:nth-child(2) > div > .card-up"
+    },
+    "registrationFormPage": {
+      "practiceFormLink": "text=Practice Form",
+      "firstNameInput": "//input[@id='firstName']",
+      "lastNameInput": "//input[@id='lastName']",
+      "emailInput": "//input[@id='userEmail']",
+      "femaleRadio": "text=Female",
+      "mobileNumberInput": "//input[@id='userNumber']",
+      "dateOfBirthInput": "#dateOfBirthInput",
+      "monthDropdown": "//select[@class='react-datepicker__month-select']",
+      "yearDropdown": "//select[@class='react-datepicker__year-select']",
+      "daySelect": "label=Choose Saturday, February 12th,",
+      "subjectsContainer": ".subjects-auto-complete__value-container",
+      "subjectsInput": "#subjectsInput",
+      "sportsCheckbox": "text=Sports",
+      "selectPictureButton": "label=Select picture",
+      "currentAddressInput": "placeholder=Current Address",
+      "stateDropdown": "#state svg",
+      "ncrOption": "text=NCR >> exact=true",
+      "cityDropdown": "div >> text=Select City >> nth=3",
+      "delhiOption": "text=Delhi >> exact=true",
+      "submitButton": "role=button[name=Submit]",
+      "submissionMessage": "text=Thanks for submitting the form",
+      "adplusAnchor": "#adplus-anchor"
+    }
+  }
+  

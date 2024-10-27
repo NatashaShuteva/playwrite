@@ -1,0 +1,12 @@
+{
+    "homepage": {
+      "widgetsHeading": "role=heading[name='Widgets']"
+    },
+    "progressBarPage": {
+      "progressBarLink": "text=Progress Bar",
+      "startButton": "role=button[name='Start']",
+      "resetButton": "role=button[name='Reset']",
+      "progressBar": "div[aria-valuenow='100']"
+    }
+  }
+  

@@ -1,0 +1,16 @@
+{
+    "homepage": {
+      "widgetsHeading": "role=heading[name='Widgets']"
+    },
+    "tabsPage": {
+      "tabsLink": "text=Tabs",
+      "whatTab": "role=tab[name='What']",
+      "loremIpsumText": "text=Lorem Ipsum is simply dummy",
+      "originTab": "role=tab[name='Origin']",
+      "contraryText": "text=Contrary to popular belief,",
+      "useTab": "role=tab[name='Use']",
+      "longEstablishedFactText": "text=It is a long established fact",
+      "whatOriginUseMore": "text=WhatOriginUseMore"
+    }
+  }
+  

@@ -1,0 +1,14 @@
+{
+    "homepage": {
+      "avatar": "div:nth-child(2) > div > .avatar"
+    },
+    "alertsFrameWindowsPage": {
+      "alertsFrameWindowsLink": "text=Alerts, Frame & Windows",
+      "alertsLink": "(//li[@id='item-1'])[2]"
+    },
+    "alertsPage": {
+      "confirmButton": "//button[@id='confirmButton']",
+      "confirmationMessage": "text=You selected Cancel"
+    }
+  }
+  

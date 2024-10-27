@@ -1,0 +1,10 @@
+{
+    "homepage": {
+      "interactionsHeading": "role=heading[name='Interactions']"
+    },
+    "draggablePage": {
+      "draggableLink": "text=Dragabble",
+      "draggableElement": "#dragBox"
+    }
+  }
+  

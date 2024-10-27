@@ -1,0 +1,15 @@
+{
+    "homepage": {
+      "card": "path"
+    },
+    "buttonsPage": {
+      "buttonsLink": "text=Buttons",
+      "doubleClickButton": "//button[@id='doubleClickBtn']",
+      "rightClickButton": "//button[@id='rightClickBtn']",
+      "clickMeButton": "(//button[@class='btn btn-primary'])[3]",
+      "doubleClickMessage": "text=You have done a double click",
+      "rightClickMessage": "text=You have done a right click",
+      "dynamicClickMessage": "text=You have done a dynamic click"
+    }
+  }
+  

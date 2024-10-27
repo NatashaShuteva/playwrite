@@ -1,0 +1,11 @@
+{
+    "homepage": {
+      "avatar": ".avatar",
+      "svg": "svg"
+    },
+    "dynamicPropertiesPage": {
+      "dynamicPropertiesLink": "text=Dynamic Properties",
+      "colorChangeButton": "role=button[name='Color Change']"
+    }
+  }
+  
