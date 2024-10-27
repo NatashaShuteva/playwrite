@@ -1,0 +1,7 @@
+{
+  "homepageUrl": "https://demoqa.com/",
+  "expectedMessages": {
+    "parentFrameText": "Parent frame",
+    "childFrameText": "Child Iframe"
+  }
+}

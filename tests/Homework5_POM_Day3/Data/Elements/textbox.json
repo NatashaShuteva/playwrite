@@ -1,0 +1,16 @@
+{
+    "baseUrl": "https://demoqa.com/",
+    "formData": {
+      "name": "Natahsa",
+      "email": "natasha@gmail.com",
+      "currentAddress": "adrewss1",
+      "permanentAddress": "adress2"
+    },
+    "resultsData": {
+      "name": "Name:Natahsa",
+      "email": "Email:natasha@gmail.com",
+      "currentAddress": "Current Address :adrewss1",
+      "permanentAddress": "Permananet Address :adress2"
+    }
+  }
+  

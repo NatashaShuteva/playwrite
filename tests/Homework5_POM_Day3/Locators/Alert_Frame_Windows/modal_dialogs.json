@@ -1,0 +1,12 @@
+{
+    "homepage": {
+      "avatarSvg": "div:nth-child(3) > div > .avatar > svg"
+    },
+    "modalDialogsPage": {
+      "modalDialogsLink": "text=Modal Dialogs",
+      "largeModalButton": "role=button[name='Large modal']",
+      "largeModalText": "//div[@class='modal-title h4']",
+      "closeLargeModalButton": "#closeLargeModal"
+    }
+  }
+  

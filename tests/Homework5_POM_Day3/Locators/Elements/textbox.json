@@ -1,0 +1,20 @@
+{
+    "homepage": {
+      "card": "div.card.mt-4:first-child",
+      "textBoxCard": "(//span[@class='text'])[1]"
+    },
+    "textBoxPage": {
+      "userNameInput": "#userName",
+      "emailInput": "input[placeholder='name@example.com']",
+      "currentAddressInput": "textarea[placeholder='Current Address']",
+      "permanentAddressInput": "#permanentAddress",
+      "submitButton": "(//button[@id='submit'])[1]"
+    },
+    "results": {
+      "nameResult": "Name:Natahsa",
+      "emailResult": "Email:natasha@gmail.com",
+      "currentAddressResult": "Current Address :adrewss1",
+      "permanentAddressResult": "Permananet Address :adress2"
+    }
+  }
+  

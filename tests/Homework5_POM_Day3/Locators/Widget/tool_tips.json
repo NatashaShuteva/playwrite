@@ -1,0 +1,11 @@
+{
+    "homepage": {
+      "widgetsHeading": "role=heading[name='Widgets']"
+    },
+    "toolTipsPage": {
+      "toolTipsLink": "text=Tool Tips",
+      "hoverButton": "role=button[name='Hover me to see']",
+      "hoverMessage": "text=You hovered over the Button"
+    }
+  }
+  

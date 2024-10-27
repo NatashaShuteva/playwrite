@@ -1,0 +1,7 @@
+{
+    "homepageUrl": "https://demoqa.com/",
+    "expectedMessages": {
+      "hoverMessage": "You hovered over the Button"
+    }
+  }
+  

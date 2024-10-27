@@ -1,0 +1,21 @@
+{
+    "homepage": {
+      "card": "path"
+    },
+    "webTablePage": {
+      "webTableLink": "text=Web Tables",
+      "addButton": "role=button[name='Add']",
+      "firstNameField": "//input[@id='firstName']",
+      "lastNameField": "input#lastName",
+      "emailField": "//input[@id='userEmail']",
+      "ageField": "//input[@id='age']",
+      "salaryField": "//input[@id='salary']",
+      "departmentField": "//input[@id='department']",
+      "submitButton": "role=button[name='Submit']",
+      "ageCell": "role=gridcell[name='41']",
+      "editButton": "//span[@id='edit-record-4']",
+      "deleteButton": "//span[@id='delete-record-4']",
+      "updatedAgeCell": "role=gridcell[name='34']"
+    }
+  }
+  

@@ -1,0 +1,15 @@
+{
+    "homepage": {
+      "avatar": ".avatar",
+      "path": "path",
+      "svg": "svg"
+    },
+    "uploadDownloadPage": {
+      "uploadDownloadLink": "text=Upload and Download",
+      "downloadLink": "role=link[name='Download']",
+      "fileInput": "//input[@id='uploadFile']",
+      "uploadedFilePath": "//p[@id='uploadedFilePath']",
+      "image": "img",
+      "statusCodesHeading": "role=heading[name='Status Codes']"
+    }
+  }

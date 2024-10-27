@@ -1,0 +1,7 @@
+{
+    "homepageUrl": "https://demoqa.com/",
+    "expectedMessages": {
+      "largeModalText": "Large Modal"
+    }
+  }
+  

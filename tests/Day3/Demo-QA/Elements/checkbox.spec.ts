@@ -13,3 +13,4 @@ test('test', async ({ page }) => {
   await page.locator("(//span[@class='rct-node-icon'])[1]").click();
   await expect(page.getByText('home', { exact: true })).toBeVisible();
 });
+

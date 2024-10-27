@@ -1,0 +1,10 @@
+{
+  "homepage": {
+    "interactionsHeading": "role=heading[name='Interactions']"
+  },
+  "resizablePage": {
+    "resizableLink": "text=Resizable",
+    "resizableBox": "#resizableBoxWithRestriction",
+    "resizableBoxHandle": "#resizableBoxWithRestriction span"
+  }
+}

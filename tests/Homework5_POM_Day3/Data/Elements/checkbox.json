@@ -1,0 +1,7 @@
+{
+  "homepageUrl": "https://demoqa.com/",
+  "expectedText": {
+    "wordFile": "wordFile",
+    "home": "home"
+  }
+}

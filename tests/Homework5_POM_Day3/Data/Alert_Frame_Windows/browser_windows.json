@@ -1,0 +1,8 @@
+{
+    "homepageUrl": "https://demoqa.com/",
+    "expectedMessages": {
+      "samplePageHeading": "This is a sample page",
+      "windowMessageText": "Knowledge increases by sharing but not by saving. Please share this website with your friends and in your organization."
+    }
+  }
+  

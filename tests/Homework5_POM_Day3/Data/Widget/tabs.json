@@ -1,0 +1,9 @@
+{
+    "homepageUrl": "https://demoqa.com/",
+    "expectedMessages": {
+      "loremIpsumText": "Lorem Ipsum is simply dummy",
+      "contraryText": "Contrary to popular belief",
+      "longEstablishedFactText": "It is a long established fact"
+    }
+}
+  

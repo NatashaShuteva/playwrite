@@ -1,0 +1,19 @@
+{
+    "homepage": {
+      "interactionsHeading": "role=heading[name='Interactions']"
+    },
+    "sortablePage": {
+      "sortableLink": "text=Sortable",
+      "listTab": "role=tab[name='List']",
+      "gridTab": "role=tab[name='Grid']",
+      "listContainer": ".vertical-list-container .list-group-item",
+      "gridContainer": ".grid-list-container .list-group-item",
+      "listItemOne": ".vertical-list-container .list-group-item:has-text('One')",
+      "listItemTwo": ".vertical-list-container .list-group-item:has-text('Two')",
+      "listItemThree": ".vertical-list-container .list-group-item:has-text('Three')",
+      "listItemFour": ".vertical-list-container .list-group-item:has-text('Four')",
+      "listItemFive": ".vertical-list-container .list-group-item:has-text('Five')",
+      "listItemSix": ".vertical-list-container .list-group-item:has-text('Six')"
+    }
+  }
+  

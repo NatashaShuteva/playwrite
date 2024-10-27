@@ -1,0 +1,12 @@
+{
+    "homepage": {
+      "avatar": ".avatar"
+    },
+    "brokenLinksPage": {
+      "brokenLinksImagesLink": "text=Broken Links - Images",
+      "image": "img",
+      "brokenLink": "role=link[name='Click Here for Broken Link']",
+      "statusCodesHeading": "role=heading[name='Status Codes']"
+    }
+  }
+  

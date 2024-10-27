@@ -1,0 +1,8 @@
+{
+    "homepageUrl": "https://demoqa.com/",
+    "expectedMessages": {
+      "initialEntryText": "Git Pocket Guide",
+      "searchResultText": "Learning JavaScript Design Patterns"
+    }
+  }
+  

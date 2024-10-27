@@ -1,0 +1,7 @@
+{
+    "homepageUrl": "https://demoqa.com/",
+    "expectedMessages": {
+      "notLoggedText": "Currently you are not logged into the Book Store application, please visit the login page to enter or register page to register yourself."
+    }
+  }
+  

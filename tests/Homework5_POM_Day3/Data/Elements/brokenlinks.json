@@ -1,0 +1,8 @@
+{
+    "homepageUrl": "https://demoqa.com/",
+    "expectedMessages": {
+      "movedText": "Moved Permanently",
+      "statusCodesText": "Status Codes"
+    }
+  }
+  
