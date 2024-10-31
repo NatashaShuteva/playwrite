@@ -1,0 +1,10 @@
+{
+    "alertsFrameWindowsLink": "//h5[text()='Alerts, Frame & Windows']",
+    "alertsTextLink": "//span[text()='Alerts']",
+    "confirmButton": "#confirmButton",
+    "confirmationText": "You selected Ok",   
+    "declineText": "You selected Cancel"
+    
+    
+  }
+  
