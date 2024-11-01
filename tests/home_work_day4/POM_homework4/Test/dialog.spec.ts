@@ -10,7 +10,8 @@ test.beforeEach('test for accept a dialog', async ({ page }) => {
 test('test for accept a dialog', async ({ page }) => {
   const alertPage = new AlertPage(page);
   await alertPage.clickAlertsTextLink();
-  await alertPage.handleDialogAccept(); // Handling dialog to accept
+  //await alertPage.handleDialogAccept(); // Handling dialog to accept
+  page.on('dialog', dialog => dialog.accept());
   await alertPage.clickConfirmButton();
   // Perform validation in the test
   await expect(alertPage.getConfirmationTextLocator()).toHaveText('You selected Ok');
@@ -19,7 +20,8 @@ test('test for accept a dialog', async ({ page }) => {
 test('test for dismiss a dialog', async ({ page }) => {
   const alertPage = new AlertPage(page);
   await alertPage.clickAlertsTextLink();
-  await alertPage.handleDialogDismiss(); // Handling dialog to dismiss
+ // await alertPage.handleDialogDismiss(); // Handling dialog to dismiss
+ page.on('dialog', dialog => dialog.dismiss());
   await alertPage.clickConfirmButton();
   // Perform validation in the test
   await expect(alertPage.getdeclineTextLocator2()).toHaveText('You selected Cancel');
