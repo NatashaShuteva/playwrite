@@ -11,7 +11,22 @@ export class AlertPage {
 
   constructor(page: Page) {
     this.page = page;
-  }
+   }
+  // Method to handle and accept dialog 
+  async handleDialogAccept() {
+     this.page.on('dialog', async dialog => {
+       console.log(`Dialog message: ${dialog.message()}`);
+        await dialog.accept();
+       });
+       } 
+       // Method to handle and dismiss dialog 
+       async handleDialogDismiss() {
+         this.page.on('dialog', async dialog => {
+           console.log(`Dialog message: ${dialog.message()}`);
+            await dialog.dismiss(); 
+          }); 
+        
+        }
 
   async navigate() {
     await this.page.goto('https://demoqa.com/');
@@ -24,14 +39,14 @@ export class AlertPage {
   async clickAlertsTextLink() {
     await this.page.locator(locators.alertsTextLink).click();
   }
-
+/*
   async handleDialog() {
     this.page.once('dialog', async dialog => {
       console.log(`Dialog message: ${dialog.message()}`);
       await dialog.accept();
     });
   }
-
+*/
   async clickConfirmButton() {
     await this.page.locator(locators.confirmButton).click();
   }
@@ -40,16 +55,16 @@ export class AlertPage {
      return this.page.locator(`text=${locators.confirmationText}`); 
     }
 
-  
+ /* 
     async handleDialog2() { 
     this.page.once('dialog', async dialog => {
     console.log(`Dialog message: ${dialog.message()}`);
      await dialog.dismiss(); 
     });
    }
-   
+ */  
    async clickDeclineButton2() { 
-    await this.page.locator(locators.confirmButton).click();
+    await this.page.locator(locators.dismissButton).click();
    }
 
     getdeclineTextLocator2() {
