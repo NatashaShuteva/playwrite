@@ -26,5 +26,5 @@ test('test for dismiss a dialog', async ({ page }) => {
   // Perform validation in the test
   await expect(alertPage.getdeclineTextLocator2()).toHaveText('You selected Cancel');
 });
-
+//
 

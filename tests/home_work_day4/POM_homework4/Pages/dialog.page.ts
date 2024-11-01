@@ -43,3 +43,4 @@ export class AlertPage {
       return this.page.locator(`text=${locators.declineText}`); 
      }
 }
+//
