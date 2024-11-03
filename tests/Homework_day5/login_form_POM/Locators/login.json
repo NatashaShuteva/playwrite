@@ -1,0 +1,11 @@
+{
+    "locators": {
+        "username": "[data-test=\"username\"]",
+        "password": "[data-test=\"password\"]",
+        "loginButton": "[data-test=\"login-button\"]",
+        "successLogin": "[data-test=\"title\"]",
+        "errorLogin": "[data-test=\"error\"]",
+        "addFirstItemToShopCard" : "//button[@id='add-to-cart-sauce-labs-backpack']",
+        "cartBadge": "//span[@class='shopping_cart_badge']"
+    }
+}

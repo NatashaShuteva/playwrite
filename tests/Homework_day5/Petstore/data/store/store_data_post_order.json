@@ -1,0 +1,28 @@
+{
+  "orders": [
+    {
+      "id": 0,
+      "petId": 1,
+      "quantity": 1,
+      "shipDate": "2024-11-03T16:40:22.593Z",
+      "status": "placed",
+      "complete": true
+    },
+    {
+      "id": 1,
+      "petId": 2,
+      "quantity": 2,
+      "shipDate": "2024-11-04T16:40:22.593Z",
+      "status": "delivered",
+      "complete": true
+    },
+    {
+      "id": 2,
+      "petId": 3,
+      "quantity": 3,
+      "shipDate": "2024-11-05T16:40:22.593Z",
+      "status": "pending",
+      "complete": false
+    }
+  ]
+}
