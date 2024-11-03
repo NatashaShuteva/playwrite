@@ -1,0 +1,39 @@
+[
+    {
+      "id": 10,
+      "name": "doggie-updated",
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "photoUrls": [
+        "string"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 11,
+      "name": "kitty-updated",
+      "category": {
+        "id": 2,
+        "name": "Cats"
+      },
+      "photoUrls": [
+        "string"
+      ],
+      "tags": [
+        {
+          "id": 1,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    }
+  ]
+  
